@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nutee.nutee_m.activity.BoardContent"
+    android:padding="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:id="@+id/boardcontent_title"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingBottom="15dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/boardcontent_comment_listview"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/boardcontent_comment"
+        android:background="#EBEBEB"
+        android:textColorHint="#A0A0A0"
+        android:layout_margin="10dp"
+        android:minHeight="50dp"
+        android:singleLine="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="댓글쓰기"
+        android:id="@+id/boardcontent_comment_button"
+        android:textColor="#FFFFFF"
+        android:background="#13C276"
+        android:layout_margin="10dp" />
+
+</LinearLayout>

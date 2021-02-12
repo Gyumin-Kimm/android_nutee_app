@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="nutee.nutee_m.activity.BoardMain">
+
+    <item android:id="@+id/menu_write"
+        android:title="Write"
+        android:orderInCategory="100" />
+
+    <item android:id="@+id/menu_refresh"
+        android:title="Refresh"
+        android:orderInCategory="100" />
+
+</menu>

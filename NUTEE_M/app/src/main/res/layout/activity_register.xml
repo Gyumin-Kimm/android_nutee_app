@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nutee.nutee_m.activity.Register">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_weight="6"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/reg_user_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="아이디"
+            android:background="#EBEBEB"
+            android:textColor="#A0A0A0"
+            android:inputType="textWebEditText"
+            android:minHeight="50dp" />
+
+        <TextView
+            android:id="@+id/reg_user_id_tv"
+            android:text="사용 가능한 아이디입니다."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="3dp"
+            android:textColor="#A0A0A0" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/reg_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="패스워드"
+        android:background="#EBEBEB"
+        android:textColor="#A0A0A0"
+        android:inputType="textWebPassword"
+        android:layout_marginBottom="10dp"
+        android:minHeight="50dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/reg_pwd_chk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="패스워드 확인"
+            android:background="#EBEBEB"
+            android:textColor="#A0A0A0"
+            android:inputType="textWebPassword"
+            android:minHeight="50dp" />
+
+        <TextView
+            android:id="@+id/reg_pwd_chk_tv"
+            android:text="패스워드와 패스워드 확인이 일치합니다."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="#A0A0A0" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/reg_user_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="닉네임"
+        android:background="#EBEBEB"
+        android:textColor="#A0A0A0"
+        android:autoText="false"
+        android:inputType="text"
+        android:minHeight="50dp" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이전"
+            android:textColor="#FFFFFF"
+            android:background="#A0A0A0"
+            android:id="@+id/reg_backbtn"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="가입"
+            android:textColor="#FFFFFF"
+            android:background="#13C278"
+            android:id="@+id/reg_donebtn"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

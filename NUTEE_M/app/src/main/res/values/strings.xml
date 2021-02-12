@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NUTEE_M</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_terms">Terms</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_board_main">BoardMain</string>
+    <string name="title_activity_board_write">BoardWrite</string>
+    <string name="title_activity_board_content">BoardContent</string>
+</resources>

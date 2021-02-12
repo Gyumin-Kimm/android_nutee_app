@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <string name="login_findpwd"><u>비밀번호 찾기</u></string>
+    <string name="login_register"><u>계정이 없다면? 가입하기</u></string>
+
+</resources>

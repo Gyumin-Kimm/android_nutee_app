@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nutee.nutee_m" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.Login"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.intro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Login" />
+        </activity>
+        <activity
+            android:name=".activity.Terms"
+            android:label="@string/title_activity_terms"
+            android:parentActivityName=".activity.Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Login" />
+        </activity>
+        <activity android:name=".activity.intro" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nutee.nutee_m.activity.Login" />
+        </activity>
+        <activity
+            android:name=".activity.Register"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".activity.Terms" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nutee.nutee_m.activity.Terms" />
+        </activity>
+        <activity
+            android:name=".activity.BoardMain"
+            android:label="@string/title_activity_board_main"
+            android:parentActivityName=".activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nutee.nutee_m.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.BoardWrite"
+            android:label="@string/title_activity_board_write"
+            android:parentActivityName=".activity.BoardMain" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nutee.nutee_m.activity.BoardMain" />
+        </activity>
+        <activity
+            android:name=".activity.BoardContent"
+            android:label="@string/title_activity_board_content"
+            android:parentActivityName=".activity.BoardMain" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nutee.nutee_m.activity.BoardMain" />
+        </activity>
+    </application>
+
+</manifest>
